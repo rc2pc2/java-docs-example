@@ -15,7 +15,7 @@ public class Player {
     /** ... */
     public void takeDamage(int damageAmount) {
         if (damageAmount < 0) {
-            return; // Non si può subire danno negativo
+            return; 
         }
         this.health -= damageAmount;
         if (this.health < 0) {
@@ -26,7 +26,7 @@ public class Player {
     /** ... */
     public void heal(int healAmount) {
         if (healAmount < 0) {
-            return; // Non si può curare con un valore negativo
+            return; 
         }
         this.health += healAmount;
         if (this.health > 100) {

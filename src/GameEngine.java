@@ -8,7 +8,7 @@ public class GameEngine {
     public GameEngine(Player player, Inventory inventory, AchievementService achievementService) {
         this.player = player;
         this.inventory = inventory;
-        this.achievementService = achievementService; // L'istanza è fornita dall'esterno
+        this.achievementService = achievementService; 
     }
     
     /** ... */

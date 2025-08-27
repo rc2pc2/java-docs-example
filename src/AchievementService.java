@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class AchievementService {
-    private final Map<String, String> achievements; // Nome -> Descrizione
+    private final Map<String, String> achievements; 
     private final Map<String, Boolean> unlockedAchievements;
 
     /** ... */

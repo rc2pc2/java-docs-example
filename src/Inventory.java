@@ -42,7 +42,7 @@ public class Inventory {
     
     /** ... */
     public List<Item> getAllItems() {
-        return new ArrayList<>(items); // Ritorna una copia per proteggere la lista originale
+        return new ArrayList<>(items); 
     }
     
     /** ... */
